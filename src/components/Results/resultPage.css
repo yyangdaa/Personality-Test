@@ -150,7 +150,13 @@
     background-repeat: no-repeat;
 }
 
-.link-image {
+.link_url_image {
+    max-width: 70%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.link_xhs_image {
     max-width: 60%;
     height: auto;
     margin: 10px 0;
@@ -158,6 +164,9 @@
 
 @media screen and (max-width: 600px) {
     .link-image {
+        max-width: 80%;
+    }
+    .link_xhs_image {
         max-width: 80%;
     }
 }

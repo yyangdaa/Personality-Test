@@ -27,7 +27,7 @@ function ResultPage1() {
       <Stack
         direction="column"
         justifyContent="flex-end"
-        alignItems="flex-end"
+        alignItems="center"
         spacing={2}
         sx={{
           position: 'absolute',

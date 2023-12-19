@@ -9,7 +9,9 @@ function Question3({ goToNextQuestion }) {
 
   const handleButtonClick = (buttonKey) => {
     setButtonState({ ...buttonState, [buttonKey]: 1 });
-    goToNextQuestion(buttonKey);
+    setTimeout(() => {
+      goToNextQuestion(buttonKey);
+    }, 500); 
   };
 
   return (

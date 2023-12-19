@@ -28,7 +28,7 @@ function ResultPage3() {
       <Stack
         direction="column"
         justifyContent="flex-end"
-        alignItems="flex-end"
+        alignItems="center"
         spacing={2}
         sx={{
           position: 'absolute',
@@ -41,13 +41,13 @@ function ResultPage3() {
         <img
           src='/images/url-element.png'
           alt="WeChat"
-          className='link-image'
+          className='link_url_image'
           onClick={() => copyToClipboard(webUrl)}
           style={{ cursor: 'pointer' }} // Make it clear this is clickable
         />
         
         <a href={linkToXhs} target="_blank" rel="noopener noreferrer">
-          <img src='/images/link-xhs-element.png' alt="XiaoHongShu" className='link-image'/>
+          <img src='/images/link-xhs-element.png' alt="XiaoHongShu" className='link_xhs_image'/>
         </a>
       </Stack>
 
