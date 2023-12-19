@@ -8,19 +8,9 @@ function Question8({ goToNextQuestion }) {
   const [buttonState, setButtonState] = useState({ first: 0, second: 0 });
 
   const handleButtonClick = (buttonKey) => {
-    setButtonState(prevState => {
-      const newState = { first: 0, second: 0 };
-      newState[buttonKey] = prevState[buttonKey] + 1;
-
-      if (newState[buttonKey] === 2) {
-        goToNextQuestion(buttonKey);
-        console.log('Q8', buttonKey);
-      }
-
-      return newState;
-    });
+    setButtonState({ ...buttonState, [buttonKey]: 1 });
+    goToNextQuestion(buttonKey);
   };
-
   return (
     <div className='q8-container'>
       <Stack className='q8-stack' direction="column" spacing={2}>
