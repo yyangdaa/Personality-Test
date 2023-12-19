@@ -1,0 +1,163 @@
+.result1-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_1.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result2-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_2.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result3-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_3.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result4-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_4.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result5-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_5.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result6-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_6.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result7-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_7.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.result8-container {
+    display: flex;
+    align-items: center;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    background-image: url('../../../public/images/Results_8.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+}
+
+.link-image {
+    max-width: 60%;
+    height: auto;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .link-image {
+        max-width: 80%;
+    }
+}

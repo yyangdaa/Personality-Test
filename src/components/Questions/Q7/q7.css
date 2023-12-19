@@ -1,0 +1,54 @@
+.q7-container {
+    font-family: 'Dancing Script', cursive;
+    /* Apply the artistic font */
+    text-align: center;
+    /* Center the text */
+    display: flex;
+    align-items: flex-end;
+    /* Align children to the bottom */
+    justify-content: center;
+    /* Center children horizontally */
+    height: 100vh;
+    /* Adjust height as needed */
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background-image: url('../../../../public/images/q7-background.png');
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image within the container */
+    background-repeat: no-repeat;
+    padding-top: 20vh;
+}
+
+.q7-stack .MuiButton-root {
+    color: #333;
+    background-color: rgba(147, 133, 133, 0.85);
+
+    padding: 10px 20px;
+    /* Padding for a larger button */
+    border-radius: 20px;
+    /* Rounded corners for the button */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+    margin-top: 5px;
+    /* Spacing between buttons */
+    margin-bottom: 5vh; /* Push the stack up from the bottom */
+}
+
+.q7-stack .MuiButton-root:hover {
+    background-color: rgba(147, 133, 133, 0.9);
+
+}
+
+.q7-stack .MuiButton-startIcon {
+    margin-right: 8px;
+    /* Space between icon and text */
+}
+
+@media screen and (max-width: 600px) {
+    .q7-container {
+        height: 80vh;
+    }
+}
