@@ -11,6 +11,7 @@ function Question4({ goToNextQuestion }) {
     setButtonState({ ...buttonState, [buttonKey]: 1 });
     goToNextQuestion(buttonKey);
   };
+  
   return (
     <div className='q4-container'>
       <Stack className='q4-stack' direction="column" spacing={2}>
