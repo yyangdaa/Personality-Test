@@ -5,7 +5,7 @@ import Snackbar from '@mui/material/Snackbar';
 import './resultPage.css';
 
 function ResultPage1() {
-  const webUrl = "https://example.com/link1";
+  const webUrl = "https://amazing-druid-c7be2d.netlify.app";
   const linkToXhs = "https://www.xiaohongshu.com/discovery/item/656c351e000000003a00ec76?app_platform=ios&app_version=8.17&noteAttributes=goods&share_from_user_hidden=true&type=normal&xhsshare=CopyLink&appuid=5b8826c7eba41300018fb057&apptime=1702371087";
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 

@@ -6,7 +6,7 @@ import './resultPage.css';
 
 
 function ResultPage3() {
-  const webUrl = "https://example.com/link1";
+  const webUrl = "https://amazing-druid-c7be2d.netlify.app";
   const linkToXhs = "https://www.xiaohongshu.com/explore/6575a8f4000000003403492c?app_platform=ios&app_version=8.17&noteAttributes=goods&share_from_user_hidden=true&type=normal&xhsshare=CopyLink&appuid=5b8826c7eba41300018fb057&apptime=1702371384";
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
