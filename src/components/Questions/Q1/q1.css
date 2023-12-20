@@ -8,7 +8,7 @@
     /* Align children to the bottom */
     justify-content: center;
     /* Center children horizontally */
-    height: 100vh;
+    height: 90vh;
     /* Adjust height as needed */
     position: relative;
     width: 100%;
@@ -49,6 +49,6 @@
 
 @media screen and (max-width: 600px) {
     .q1-container {
-        height: 80vh;
+        height: 75vh;
     }
 }

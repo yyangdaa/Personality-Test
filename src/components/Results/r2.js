@@ -42,7 +42,7 @@ function ResultPage2() {
           alt="WeChat"
           className='link-image'
           onClick={() => copyToClipboard(webUrl)}
-          style={{ cursor: 'pointer' }} // Make it clear this is clickable
+          style={{ cursor: 'pointer' }} 
         />
         
         <a href={linkToXhs} target="_blank" rel="noopener noreferrer">
